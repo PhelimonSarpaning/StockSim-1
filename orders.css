@@ -1,0 +1,111 @@
+
+.row{
+    
+    width: 100%;
+    height:600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+
+.col-md-3{
+    padding-bottom: 30px;
+
+}
+
+.card-img-top{
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+      
+    position: relative;
+    display: flow-root;
+    height: 170px;
+    width: 202px;
+    padding-block-end: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.card-body{
+    
+    height: 100%;
+    width: 200px;
+    padding: 0px 5px 20px;
+ }
+
+.company-title{
+    display: table-cell;
+    line-height: 1.5;
+    font-size: .9rem;
+    padding: 15px;
+    background: #fafafa;
+    
+   
+
+}
+
+.buy-button {
+    
+    position: absolute;
+    height: 70px;
+    width: 45%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding:27px 12px;
+    text-align: center;
+    text-size-adjust: none;
+    text-decoration: none;
+   
+    font-size: 11px;
+    transition-duration: 0.2s;
+    
+  }
+
+  .submit-button {
+    
+    position: absolute;
+    height: 70px;
+    width: 45%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding:27px 12px;
+    text-align: center;
+    text-size-adjust: none;
+    text-decoration: none;
+   
+    font-size: 11px;
+    transition-duration: 0.2s;
+    
+  }
+
+  .buy-button:hover{
+    background-color: white; /* Green */
+    color: black;
+    border: 1px solid #4CAF50;
+
+  }
+
+ input{
+    visibility: hidden;
+    width: 50%;
+    float: right;
+   
+ }
+ label{
+    visibility: hidden;
+    position: relative;
+    padding-left: 50%;
+ }
+
+ .selected{
+    visibility: visible;
+ }
+  
